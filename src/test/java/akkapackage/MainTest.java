@@ -3,7 +3,7 @@ package akkapackage;
 import akka.actor.testkit.typed.javadsl.TestKitJunitResource;
 import akka.actor.testkit.typed.javadsl.TestProbe;
 import akka.actor.typed.ActorRef;
-import akkapackage.actors.Greeter;
+import akkapackage.actorsmodel.Greeter;
 import org.junit.ClassRule;
 import org.junit.Test;
 

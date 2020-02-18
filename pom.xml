@@ -61,7 +61,7 @@
                     <arguments>
                         <argument>-classpath</argument>
                         <classpath/>
-                        <argument>akkapackage.Main</argument>
+                        <argument>akkapackage.actorsmodel.Main</argument>
                     </arguments>
                 </configuration>
             </plugin>

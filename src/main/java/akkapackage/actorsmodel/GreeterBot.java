@@ -1,4 +1,4 @@
-package akkapackage.actors;
+package akkapackage.actorsmodel;
 
 import akka.actor.typed.ActorRef;
 import akka.actor.typed.Behavior;

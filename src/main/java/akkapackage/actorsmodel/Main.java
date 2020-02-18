@@ -1,7 +1,6 @@
-package akkapackage;
+package akkapackage.actorsmodel;
 
 import akka.actor.typed.ActorSystem;
-import akkapackage.actors.GreeterMain;
 
 import java.io.IOException;
 
