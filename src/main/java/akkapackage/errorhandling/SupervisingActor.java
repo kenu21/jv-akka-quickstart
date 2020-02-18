@@ -22,7 +22,6 @@ public class SupervisingActor extends AbstractBehavior<String> {
                 context.spawn(
                         Behaviors.supervise(SupervisedActor.create()).onFailure(SupervisorStrategy.restart()),
                         "supervised-actor");
-
     }
 
     @Override

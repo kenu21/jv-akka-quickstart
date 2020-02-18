@@ -5,7 +5,7 @@ import akka.actor.typed.ActorSystem;
 
 public class Main {
     public static void main(String[] args) {
-        ActorRef<String> testSystem = ActorSystem.create(MainActor.create(), "lifeCycle");
+        ActorRef<String> testSystem = ActorSystem.create(MainActor.create(), "errorHandle");
         testSystem.tell("start");
     }
 }
